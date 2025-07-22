@@ -1,0 +1,69 @@
+
+.img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.card{
+    background-color: rgb(221, 192, 244);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 30px rgba(2, 13, 38, 0.953);
+    text-align: center;
+    max-width: 300px;
+
+}
+h1{
+    margin-bottom: 10px;
+    font-family: 'Oswald',sans-serif;
+}
+
+@font-face {
+    font-family:'Oswald' ;
+    src: url('fonts/oswald-bold.ttf')
+    format('trutype');
+}
+@font-face{
+    font-family:'Oswald regular';
+    src:url('fonts/oswald-Regular.ttf')
+}
+
+p{
+
+     margin-bottom: 20px;
+     font-family:'Oswald regular', sans-serif;
+}
+body{
+ display: flex;
+ flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(https://scontent.ftbs2-2.fna.fbcdn.net/v/t1.6435-9/176582388_805348383727739_3672755636134934516_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeHPC1OpjxdOngPl2ZZwQhfLi9ycNjfW4peL3Jw2N9bil0MdudHec32kmGYNrHntpy7DrRZ6_4JsvMIicYwZ7JEx&_nc_ohc=2c0k0sBnHY8Q7kNvwHsnEQ0&_nc_oc=AdkriDnyqhS9RDGOA73FfIFAYb_6tKrwyYscrz_EJZRzSTsg_umJF_s_RI1nnX5TUU8&_nc_zt=23&_nc_ht=scontent.ftbs2-2.fna&_nc_gid=yVOM1pyF8vKQwCzohMw_7w&oh=00_AfTLC9p1Np-SBR_H4YNcu19ga39x_m10XA4iohkor26umw&oe=68A6B38F);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+   
+
+}
+.links a{
+    display: inline-block;
+
+}
+a{
+    background-color: rgb(246, 233, 247);
+
+}
+.contact:hover{
+    background-color: rgb(249, 229, 6);
+    box-shadow: 0 8px 10px;
+}
+.img class bacground{
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    background-size: cover;
+}
+
